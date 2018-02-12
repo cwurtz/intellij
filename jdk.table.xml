@@ -1,0 +1,31 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Elixir 1.5.2" />
+      <type value="Elixir SDK" />
+      <version value="Elixir 1.5.2" />
+      <homePath value="/usr/local/Cellar/elixir/1.5.2" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file:///usr/local/Cellar/elixir/1.5.2/lib" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root type="simple" url="http://elixir-lang.org/docs/stable/elixir/" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="file:///usr/local/Cellar/elixir/1.5.2/lib" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>
