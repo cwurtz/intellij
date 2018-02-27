@@ -2,6 +2,7 @@
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
+  <action id="CheckinProject" />
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
