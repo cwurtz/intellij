@@ -1,4 +1,7 @@
 <code_scheme name="Default" version="173">
+  <JSCodeStyleSettings>
+    <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
+  </JSCodeStyleSettings>
   <MarkdownNavigatorCodeStyleSettings>
     <option name="RIGHT_MARGIN" value="72" />
   </MarkdownNavigatorCodeStyleSettings>
@@ -9,7 +12,7 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
-    <option name="KEEP_LINE_BREAKS" value="false" />
+    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
