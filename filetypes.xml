@@ -3,11 +3,12 @@
     <extensionMap>
       <mapping pattern=".env.tpl" type="PLAIN_TEXT" />
       <mapping pattern=".helmginore" type="PLAIN_TEXT" />
-      <mapping pattern="default_logger" type="PLAIN_TEXT" />
-      <mapping pattern="stop" type="PLAIN_TEXT" />
+      <mapping pattern=".knexfile" type="PLAIN_TEXT" />
       <mapping pattern=".env.test" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping pattern=".knexfile" type="PLAIN_TEXT" />
+      <mapping pattern="default_logger" type="PLAIN_TEXT" />
+      <mapping pattern="stop" type="PLAIN_TEXT" />
+      <mapping pattern=".pyenv" type="PLAIN_TEXT" />
       <mapping ext="proto" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
