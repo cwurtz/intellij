@@ -10,6 +10,7 @@
   <component name="Go">
     <option name="detectGoPackageFromClipboard" value="false" />
     <option name="renameCorrespondingTestOrProductionFile" value="YES" />
+    <option name="renamePackageOnDirectoryRenaming" value="YES" />
   </component>
   <component name="XmlFoldingSettings">
     <option name="COLLAPSE_HTML_STYLE_ATTRIBUTE" value="false" />
