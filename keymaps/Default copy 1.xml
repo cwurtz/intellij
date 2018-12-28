@@ -1,0 +1,10 @@
+<keymap version="1" name="Default copy 1" parent="Default for XWin">
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="windows" second-keystroke="z" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="windows" second-keystroke="z" />
+  </action>
+</keymap>
