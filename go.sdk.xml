@@ -2,6 +2,7 @@
   <component name="GoSdkList">
     <sdk-path>
       <set>
+        <option value="/opt/google-cloud-sdk/platform/google_appengine/goroot-1.9" />
         <option value="/usr/lib/go-1.10" />
         <option value="/usr/local/go" />
       </set>
