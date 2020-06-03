@@ -6,6 +6,7 @@
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
+  <action id="EditorJoinLines" />
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
