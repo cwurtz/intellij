@@ -1,0 +1,7 @@
+<templateSet group="Temporary">
+  <template name="gae112" value="// TODO: [Start] GAE Runtime 1.12+&#10;&#10;// TODO: [End] GAE Runtime 1.12+" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+</templateSet>
