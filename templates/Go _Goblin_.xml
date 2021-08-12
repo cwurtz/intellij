@@ -17,4 +17,16 @@
       <option name="GO" value="true" />
     </context>
   </template>
+  <template name="g.a" value="g.After(func() {&#10;    $CONTENT$&#10;})" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="g.b" value="g.Before(func() {&#10;    $CONTENT$&#10;})" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
 </templateSet>
