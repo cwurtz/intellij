@@ -1,0 +1,20 @@
+<templateSet group="Go (Goblin)">
+  <template name="g.d" value="g.Describe($LABEL$, func() {&#10;&#10;})" description="Create describe block" toReformat="false" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="g.i" value="g.It($LABEL$, func() {&#10;&#10;})" toReformat="false" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="g.x" value="g.Xit($LABEL$, func() {&#10;&#10;})" toReformat="false" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+</templateSet>
