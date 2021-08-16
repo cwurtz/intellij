@@ -29,4 +29,10 @@
       <option name="GO" value="true" />
     </context>
   </template>
+  <template name="g.e" value="if err != nil {&#10;    fmt.Printf(&quot;Error in g.$METHOD$: %v&quot;, err.Error())&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
 </templateSet>
