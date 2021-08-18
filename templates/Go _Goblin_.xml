@@ -5,31 +5,31 @@
       <option name="GO" value="true" />
     </context>
   </template>
-  <template name="g.i" value="g.It($LABEL$, func() {&#10;&#10;})" toReformat="false" toShortenFQNames="true">
+  <template name="g.i" value="g.It($LABEL$, func() {&#10;&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <variable name="LABEL" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
       <option name="GO" value="true" />
     </context>
   </template>
-  <template name="g.x" value="g.Xit($LABEL$, func() {&#10;&#10;})" toReformat="false" toShortenFQNames="true">
+  <template name="g.x" value="g.Xit($LABEL$, func() {&#10;&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GO" value="true" />
     </context>
   </template>
-  <template name="g.a" value="g.After(func() {&#10;    $CONTENT$&#10;})" toReformat="false" toShortenFQNames="true">
+  <template name="g.a" value="g.After(func() {&#10;    $CONTENT$&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GO" value="true" />
     </context>
   </template>
-  <template name="g.b" value="g.Before(func() {&#10;    $CONTENT$&#10;})" toReformat="false" toShortenFQNames="true">
+  <template name="g.b" value="g.Before(func() {&#10;    $CONTENT$&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GO" value="true" />
     </context>
   </template>
-  <template name="g.e" value="if err != nil {&#10;    fmt.Printf(&quot;Error in g.$METHOD$: %v&quot;, err.Error())&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="g.e" value="if err != nil {&#10;    fmt.Printf(&quot;Error in g.$METHOD$: %v&quot;, err.Error())&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GO" value="true" />
