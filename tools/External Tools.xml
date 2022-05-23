@@ -6,4 +6,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
+  <tool name="Run dev-env.sh" description="Runs dev-env.sh to set environment variables" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="/bin/bash" />
+      <option name="PARAMETERS" value="dev-env.sh" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/go/src/gitlab.com/carely/caregiving/web" />
+    </exec>
+  </tool>
 </toolSet>
