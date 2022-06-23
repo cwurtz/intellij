@@ -1,0 +1,9 @@
+<templateSet group="React">
+  <template name="rnct" value="import React from &quot;react&quot;;&#10;&#10;interface $COMPONENT$Props {&#10; &#10;}&#10;&#10;const $COMPONENT$ = ({ ...props }: $COMPONENT$Props) =&gt; {&#10;  return (&#10;    &#10;  );&#10;};&#10;&#10;export default $COMPONENT$;" description="Create new functional component using typescript" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
